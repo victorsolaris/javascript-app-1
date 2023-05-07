@@ -3,4 +3,7 @@ let person = {
     age: 30
 } // object literal
 
+
+// Dot notation
+person.name = 'John';
 console.log(person);
