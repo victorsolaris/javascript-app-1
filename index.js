@@ -6,4 +6,7 @@ let person = {
 
 // Dot notation
 person.name = 'John';
+
+// Bracket notation, single or double quots
+person['name'] = 'Mary';
 console.log(person);
