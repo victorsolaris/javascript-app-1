@@ -1,7 +1,8 @@
 // function
 
-function greet() {
-    console.log('hello world');
+function greet(name) {
+    console.log('Hello ' + name);
 }
 
-greet();
+greet('John');
+greet('Mary');
