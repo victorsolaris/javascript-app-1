@@ -1,17 +1,5 @@
-let person = {
-    name: 'Mosh',
-    age: 30
-} // object literal
+// list of objects in an array
 
-
-// Dot notation
-person.name = 'John';
-
-// Bracket notation, single or double quots
-person['name'] = 'Mary';
-
-// Bracket notation, variable changes at runtime
-let selection = 'name';
-person[selection] = 'Mary';
-
-console.log(person);
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors);
+console.log(selectedColors[0]);
